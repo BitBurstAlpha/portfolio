@@ -159,7 +159,7 @@ export default function Hero() {
         {/* Social Icons */}
         <motion.div variants={itemVariants} className="flex items-center gap-4 mb-8">
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/dilshan-samarakoon-811b4b288/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -168,14 +168,14 @@ export default function Hero() {
             <LinkedInIcon className="w-5 h-5" />
           </a>
           <a
-            href="mailto:dilshan@example.com"
+            href="mailto:usdsamarakoon@gmail.com"
             aria-label="Gmail"
             className="p-3 rounded-full bg-surface border border-border/80 text-text hover:text-white hover:border-secondary hover:shadow-lg hover:shadow-secondary/10 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
           >
             <Mail className="w-5 h-5" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/BitBurstAlpha"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

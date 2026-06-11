@@ -168,7 +168,9 @@ export default function Hero() {
             <LinkedInIcon className="w-5 h-5" />
           </a>
           <a
-            href="mailto:usdsamarakoon@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=usdsamarakoon@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Gmail"
             className="p-3 rounded-full bg-surface border border-border/80 text-text hover:text-white hover:border-secondary hover:shadow-lg hover:shadow-secondary/10 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
           >

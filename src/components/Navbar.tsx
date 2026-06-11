@@ -38,7 +38,7 @@ export default function Navbar() {
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
         isScrolled
-          ? "bg-[#0F172A]/80 border-b border-[#334155]/60 backdrop-blur-md shadow-lg shadow-black/5"
+          ? "bg-background/80 border-b border-border/60 backdrop-blur-md shadow-lg shadow-black/5"
           : "bg-transparent border-b border-transparent"
       )}
     >
@@ -107,7 +107,7 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="block px-3 py-3 rounded-lg text-base font-medium text-text hover:text-white hover:bg-[#0F172A]/50 transition-colors"
+                  className="block px-3 py-3 rounded-lg text-base font-medium text-text hover:text-white hover:bg-background/50 transition-colors"
                 >
                   {link.name}
                 </Link>
